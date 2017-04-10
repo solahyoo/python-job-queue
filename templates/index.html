@@ -20,12 +20,12 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <br>
-      <h3> Job Status</h3>
+      <h3> Recent Job Statuses </h3>
       {% for job in jobs %}
         <a href="/status/{{job}}">{{ job }} </a>
         <br>
       {% endfor %}
-      <h3> Job Results</h3>
+      <h3> Recent Job Results</h3>
       {% for job in jobs %}
         <a href="/results/{{job}}">{{ job }} </a>
         <br>
